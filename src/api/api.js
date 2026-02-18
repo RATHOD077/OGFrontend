@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BACKEND_URL = 'http://localhost:4000';
+const BACKEND_URL = 'https://backend-2-15sk.onrender.com';
 
 const api = axios.create({
   baseURL: BACKEND_URL,
